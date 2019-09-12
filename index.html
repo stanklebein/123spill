@@ -100,6 +100,31 @@ border-radius:20%;
 <br>
 <br>
 <br>
+<center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p><b><font size="4px">Her kan du slenge igjen en kommentar</font></b></p>
+    <br>
+    <br>
+<form method='post'>
+    Navn: <input type='text' name='name' id='name' /><br />
+   <br>
+    Email: <input type='text' name='email' id='email' /><br />
+   <br>
+    Kommentar:<br />
+    <textarea name='comment' id='comment'></textarea><br />
+   
+    <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+   
+    <input type='submit' value='Submit' />  
+  </form>
+</center>
+
+
 <br><br><br>
 <img src="https://i.imgur.com/sGqD02d.jpg" width="400" height="300"/></a>
 <img src="https://i.imgur.com/HQXZ0X7.gif" width="400" height="300"/></a>
